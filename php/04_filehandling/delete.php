@@ -1,5 +1,5 @@
 <?php
-$file= "sample2.txt"; 
+$file= "sample.txt"; 
 if (file_exists($file)) { 
     unlink($file); 
     echo "File deleted successfully.";
